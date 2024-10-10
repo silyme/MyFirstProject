@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable = "true">
+    <Resource
+            name="jdbc/myJavaEEDB"
+            type="javax.sql.DataSource"
+            maxTotal="12"
+            maxIdle="6"
+            driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://127.0.0.1:5432/myJavaEEDB"
+            username="postgres"
+            password="ww13385007513"
+            maxWaitMillis="5000"
+    />
+
+</Context>
